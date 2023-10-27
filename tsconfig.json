@@ -3,26 +3,26 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "./dist/out-tsc",
+    "outDir": "doc/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,
     "paths": {
       "grid": [
-        "dist/grid/grid",
-        "dist/grid"
+        "doc/grid/grid",
+        "doc/grid"
       ],
       "map": [
-        "dist/map/map",
-        "dist/map"
+        "doc/map/map",
+        "doc/map"
       ],
       "ticket-mgt": [
-        "dist/ticket-mgt/ticket-mgt",
-        "dist/ticket-mgt"
+        "doc/ticket-mgt/ticket-mgt",
+        "doc/ticket-mgt"
       ],
       "ui-tools": [
-        "dist/ui-tools/ui-tools",
-        "dist/ui-tools"
+        "doc/ui-tools/ui-tools",
+        "doc/ui-tools"
       ]
     },
     "noPropertyAccessFromIndexSignature": true,

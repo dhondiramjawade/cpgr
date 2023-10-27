@@ -20,7 +20,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/pgr",
+            "outputPath": "doc",
             "index": "projects/pgr/src/index.html",
             "main": "projects/pgr/src/main.ts",
             "polyfills": "projects/pgr/src/polyfills.ts",
