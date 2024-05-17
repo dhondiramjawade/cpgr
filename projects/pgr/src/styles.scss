@@ -11,13 +11,13 @@ html,
 body {
   height: 100%;
 }
-body {
-  margin: 0;
-  font-family: "Noto Sans";
-}
 
-.bi::before {
-  // font-size: 1.25rem;
+body {
+  font-family: "Noto Sans";
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1;
 }
 
 .overflow-v {

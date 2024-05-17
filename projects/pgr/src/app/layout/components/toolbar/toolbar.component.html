@@ -2,5 +2,11 @@
     <button class="btn btn-dark" (click)="toggleButton()"><i class="bi bi-list"></i></button>
     <a class="navbar-brand"> <span class="h3">PGRS</span>  | Public Grievance Redressal System</a>
     <div class="col"></div>
+    <form [formGroup]="form">
+        <div class="form-check form-switch">
+            <input class="form-check-input" type="checkbox" formControlName="theme" role="switch" id="darkTheme" checked>
+          </div>
+    </form>
+    
     <button class="btn btn-dark rounded-circle">  <i class="bi bi-person-circle"></i></button>
 </nav>
