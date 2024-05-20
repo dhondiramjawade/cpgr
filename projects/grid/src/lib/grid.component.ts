@@ -21,6 +21,7 @@ import {
   IPaginationFunction,
   IPaginationParams,
 } from './interfaces/pagination-params.interface';
+import { EnvironmentService } from 'projects/ui-tools/src/lib/services/environment.service';
 
 @Component({
   selector: 'lib-grid',
@@ -39,9 +40,13 @@ export class GridComponent implements OnInit {
   @Input() getRows!: IPaginationFunction;
   @Input() total : number = NaN;
 
-  constructor(private http: HttpClient) {}
+  darkTheme='-dark';
 
-  ngOnInit(): void {}
+  constructor(private http: HttpClient, public _envService: EnvironmentService) {}
+
+  ngOnInit(): void {
+
+  }
 
   // DefaultColDef sets props common to all Columns
   public defaultColDef: ColDef = {

@@ -1,7 +1,7 @@
 <div style="height: 100%">
   <ag-grid-angular
     style="height: calc(100% - 38px)"
-    class="ag-theme-material"
+    class="ag-theme-alpine{{_envService.theme === 'dark'? '-dark':''}}"
     [columnDefs]="columnDefs"
     [defaultColDef]="defaultColDef"
     [rowData]="rowData$ | async"

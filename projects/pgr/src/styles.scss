@@ -1,11 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 @import "./scss/variables";
+@import './scss/dark-variables';
 @import "bootstrap/scss/bootstrap";
 @import "bootstrap-icons/font/bootstrap-icons.scss";
+@import "ag-grid-community/styles/ag-grid";
+@import "ag-grid-community/styles/ag-theme-alpine";
+
 @import "leaflet/dist/leaflet.css";
 @import "leaflet-draw/dist/leaflet.draw.css";
-@import "ag-grid-community/styles/ag-grid.css";
-@import "ag-grid-community/styles/ag-theme-material.css";
 
 html,
 body {
